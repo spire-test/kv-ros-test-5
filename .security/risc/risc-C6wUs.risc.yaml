@@ -1,0 +1,35 @@
+schemaVersion: ENC[AES256_GCM,data:nZjV,iv:QIb0CHzBQ4Ht3msEl5FrZdwnaOsasd28LZ3/W9htPms=,tag:82mtYoeyi2J4ZOgrZYECNw==,type:str]
+title: ENC[AES256_GCM,data:I1XVYo+z5zK694CVIr3hpww=,iv:Vmmhh4rCvuNbHJc124kJNK3IUGqrmCzYFQ1dSB2FaIU=,tag:0i60SRg8NZC8fm559YizLg==,type:str]
+scope: ENC[AES256_GCM,data:tgz7xKNdt03sHPOp7p92pgvo87wgKcOTUOsg6J642OVu7zQOVk4bZscwRIDWGa6CZPzh1LjN7mzGuCG/TmIgW0nEMsYpAWMvhx35v7hFYZ9eLyTjFDkHXfv0CPJ77dkqX79QoJq/tt4U9w1OymidFJ0cM9/aoMBD,iv:YjWYpdtUMN2G37N9xkStJLlPlEOL9riJg9DN2JS+/Ow=,tag:WTMMKrn9U1Kds9rIAhNvBA==,type:str]
+valuations: []
+scenarios: []
+sops:
+    shamir_threshold: 2
+    key_groups:
+        - hc_vault: []
+          age:
+            - recipient: age1hn2ax8m9798srve8f207llr50tyelzyp63k96ufx0ud487q9xveqca6k0r
+              enc: |
+                -----BEGIN AGE ENCRYPTED FILE-----
+                YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBzeE5KblB6d2tTa1BPclA0
+                Qmg4SXlHNEF0bkNoUzN5VCtwenFYTHN6S3lBCnZYZVFZN1NlaThPeG9QRERxNnRp
+                VGlsRjZ4eU5VcU9QZG1vTXBnVy9tRXcKLS0tIC9SdnBvRVJQY3FzVkN1V0ZFOGxX
+                WlNtZ2RoeWpLNGV0bEMvT2dMaXpQb2MK9jAhOgAzk06gdRskzhN9+bZge0mwd46k
+                vua0qo0WfvFbrNT0SFnffAbmwyd0rW8SF1eTK+xy5qPBwLMYyzGbsrI=
+                -----END AGE ENCRYPTED FILE-----
+        - gcp_kms:
+            - resource_id: projects/spire-ros-5lmr/locations/eur4/keyRings/ROS/cryptoKeys/ros-as-code
+              created_at: "2024-08-30T09:46:04Z"
+              enc: CiQAMVUE/6LPFJfh+z20Qtqn/D1Z58E1WloR9mCP3tcjgJPVv6USSgD2ZGIpckmcj3+1JB+KrVPoYttIxMfMR8FF/DAZQHS+v+9QtGerXuoXZ6+YnnEqY57bRkJt1YTjxczs9YuTupPon0+HNW0ahisL
+          hc_vault: []
+          age: []
+    kms: []
+    gcp_kms: []
+    azure_kv: []
+    hc_vault: []
+    age: []
+    lastmodified: "2024-08-30T09:46:04Z"
+    mac: ENC[AES256_GCM,data:LdvuGOQpbrL9fKarkUGbveKASvcg7ftPKAsHmfMzrklK9hYi+/HKewmbyWWmjGuYAlb+K7qCMSLA0FSUPNuNut2B6WY74K7njpIoNGAK+BL6TNRNK1GAv79GtVYXOkj1Pw/DCmTCU+v1BldEWBmep3wcx9s2KI7t9N20i8+Ly58=,iv:+CwY5RdBT7huCIOFm+A6rOFOa9JKyTFiaitq510LTeM=,tag:te1o6AqHkY73ILHMi96hWQ==,type:str]
+    pgp: []
+    unencrypted_suffix: _unencrypted
+    version: 3.9.0
