@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: kv-ros-test-5
+  title: Frontend Z
+  annotations:
+    github.com/project-slug: spire-test/kv-ros-test-5
+  links:
+    - url: https://console.cloud.google.com/apis/dashboard?project=spire-ros-5lmr
+      title: Google OAuth Consent Screen
+spec:
+  type: service
+  lifecycle: experimental
+  owner: github/kv-platform
+  system: kv-ros
