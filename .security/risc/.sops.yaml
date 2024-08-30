@@ -1,0 +1,8 @@
+creation_rules:
+  - shamir_threshold: 2
+    path_regex: \.ros\.yaml$
+    key_groups:
+      - age:
+          - "age1hn2ax8m9798srve8f207llr50tyelzyp63k96ufx0ud487q9xveqca6k0r"
+      - gcp_kms:
+          - resource_id: projects/spire-ros-5lmr/locations/eur4/keyRings/ROS/cryptoKeys/ros-as-code
