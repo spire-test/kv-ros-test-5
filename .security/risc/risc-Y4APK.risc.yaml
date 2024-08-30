@@ -1,0 +1,35 @@
+schemaVersion: ENC[AES256_GCM,data:tm4d,iv:N2j5zHHNJVdBRMFUixndvD36aNBCpUGT6WvqvVm2tHw=,tag:G0IEtL+6VfJd0hhNQPZ50A==,type:str]
+title: ENC[AES256_GCM,data:TofrW8tNqhqTLSKGQpo=,iv:E/tMPZbkKsfWY3ADqeeKYZFtb6LwWurTYh9HUK/2Bj0=,tag:HsOQsE+TokCxchtL89S3ZA==,type:str]
+scope: ENC[AES256_GCM,data:QY8HYNLAYfH24/bJ9WlmR27CStWRfMrO4PiD8jNBEQjBj9FQHhetneiPXjtCGeNvnshBfxFJTQbQknsdcAHiOmy6g8cUprqFP6qbQnEcIP+4QDhA1RI9I8E=,iv:AOC/UKhZXvbzHtSR1UwtQejzh1f0NY9PRfx4WZCV+T8=,tag:4+WzNFqefmyHmHud5hhLSA==,type:str]
+valuations: []
+scenarios: []
+sops:
+    shamir_threshold: 2
+    key_groups:
+        - hc_vault: []
+          age:
+            - recipient: age1hn2ax8m9798srve8f207llr50tyelzyp63k96ufx0ud487q9xveqca6k0r
+              enc: |
+                -----BEGIN AGE ENCRYPTED FILE-----
+                YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSB2WldHb09HK2NEcUZxUWY5
+                eHFlUVlsdksyNG5LTjc3UTZ3aU1KV01YQ1FZCkFmK3lncm0wZnJqL2dUeWtoZzBV
+                OXpBNFZRZWlDOWgwbnl4Mm1GRWhiWkUKLS0tIEpVK3J4WlJ2THhuSWtHTEhmbWZF
+                MHdMaFJGWkVjZzlOZVBHallsYTNTUDgKSsnSYaLvacmrmKi5O4OA/HAbJdZpLSfB
+                0OoUHRPfiE7qKWw/AV1lBywCXWYHn5k+UT4pumrppXP6LGl6ZpJTmsM=
+                -----END AGE ENCRYPTED FILE-----
+        - gcp_kms:
+            - resource_id: projects/spire-ros-5lmr/locations/eur4/keyRings/ROS/cryptoKeys/ros-as-code
+              created_at: "2024-08-30T09:44:03Z"
+              enc: CiQAMVUE/zrq8bwSBTCXVe0TBjilyNjU8Sl7K1ocAiifyY8asIsSSgD2ZGIpsU2S1RV/gf6oj6VPQw0AyPMgsGd0KedOFnqpLau+MMrtELcyfZIlHOy9+Pn89Gkl6mbrahp6AKjhJXxsWsPS0Xi9fzdr
+          hc_vault: []
+          age: []
+    kms: []
+    gcp_kms: []
+    azure_kv: []
+    hc_vault: []
+    age: []
+    lastmodified: "2024-08-30T09:44:03Z"
+    mac: ENC[AES256_GCM,data:Wrxmb0i716tsV3eWkjBs2al6On1K6ngtSDIvQ/zwzF9mD1JW82xyfXs0VOHzpYLchnwx9/dmO5hwnwYDPzdOTRwKN863CB/2H8D4G+6jIA2iPDdpKV1HV+Sw4i7Gu5P56/LrXb3f7nCzUxqXPdFmOikovdzx3mDEUv9cYt0xZiE=,iv:FpcwHSLVHrGccX66XyuSzL5WQact1tN/bqwXxnDR8Nc=,tag:3Zm0IXmoC2BTQvsSV1VsBA==,type:str]
+    pgp: []
+    unencrypted_suffix: _unencrypted
+    version: 3.9.0
