@@ -1,0 +1,35 @@
+schemaVersion: ENC[AES256_GCM,data:3G3K,iv:Nu9C5XxC1x6ljHQMsGLxR3J1KXIWVJGmndm5frJrRxc=,tag:PVAORzf41/np3+NwDHR7HA==,type:str]
+title: ENC[AES256_GCM,data:Bx9nfw==,iv:6e9+V0b97o16tLowdS0ekG/TImyeODeBrzBoiD4Ka+A=,tag:X6zWzRLGxN7wA4CChzl11A==,type:str]
+scope: ENC[AES256_GCM,data:9c1ipA==,iv:LJFntoKvYhe+3ohzSOqW+ujVhkSNT6EgigyyGbEVOso=,tag:HbdFCDU8b1Lr3upMZHnoVQ==,type:str]
+valuations: []
+scenarios: []
+sops:
+    shamir_threshold: 2
+    key_groups:
+        - hc_vault: []
+          age:
+            - recipient: age1hn2ax8m9798srve8f207llr50tyelzyp63k96ufx0ud487q9xveqca6k0r
+              enc: |
+                -----BEGIN AGE ENCRYPTED FILE-----
+                YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSB1TnljYWpBa1lCSmhlMHJP
+                MlhsSTRtMTd3aHFQY2xKWEo3MVplS3pBWDNBCkNBcHBtM0NKVXBpZitGa25iSGw5
+                ZkFETTdDWGlSRDdyc2d6bm1KcXNOY1UKLS0tIHAzbHUvSzJCUW4yRjdXS3NFL1NS
+                RnZrdFVqVUQyNFBEcVNNK201T3BVeVUKd+/W9W9FdJ89GVQQfkY3DYYTag14xKMF
+                jWQaExvCN0tZylgKFR/lzXJAF1cU8y0I067AYSyfJj2mtyafgU/6U0Y=
+                -----END AGE ENCRYPTED FILE-----
+        - gcp_kms:
+            - resource_id: projects/spire-ros-5lmr/locations/global/keyRings/ROS-global/cryptoKeys/ROS-as-code
+              created_at: "2024-09-06T09:52:29Z"
+              enc: CiQA/OTTg6n3178KaIphmOXFU0h6nybTUyn2kGXfMh6y+0qbWmgSSgDmnRJN+VK9DK+xLPX26jCV6bXZF6fW6cAq17569z2czkbiYz4laNQLj1mnvEXvrAFTZrLlf6l+//0dgNiKPD8hjmKHu9xEtLXL
+          hc_vault: []
+          age: []
+    kms: []
+    gcp_kms: []
+    azure_kv: []
+    hc_vault: []
+    age: []
+    lastmodified: "2024-09-06T09:52:29Z"
+    mac: ENC[AES256_GCM,data:9DI1Xbk/EUE5wo7PrsaW5s9Uvi26GZPBYkapoWJwNDukMJfZ0B3WgT+psIpSYGn07HObE/ro5FNpWERFWg9lX8N3Kl6tAks82b703NXoCEPl6iEKSFr4ABeRKfR/RiZLM+GoLDRSALNEg/cMBW7244f5Uz26cPiYMgRMeJuhSyo=,iv:GulobgfamK1UWF+EB46c+AvVGVwD+yeMkDH2SdGRL9c=,tag:AecZvIsmFuiRo6OL59md7w==,type:str]
+    pgp: []
+    unencrypted_suffix: _unencrypted
+    version: 3.9.0
