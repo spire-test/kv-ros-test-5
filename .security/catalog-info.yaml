@@ -22,7 +22,7 @@ metadata:
   labels:
     gcp-project-id: "prosjekt-prod-1234"
 spec:
-  owner: "insane-team"
+  owner: "gcp-team"
 ---
 apiVersion: "backstage.io/v1alpha1"
 kind: "System"
@@ -30,7 +30,7 @@ metadata:
   name: "initRosSystemUten"
   title: "System uten GCP-Project-Id"
 spec:
-  owner: "insane-team"
+  owner: "gcp-team"
 ---
 apiVersion: "backstage.io/v1alpha1"
 kind: "Component"
@@ -41,7 +41,7 @@ metadata:
 spec:
   type: "service"
   lifecycle: "production"
-  owner: "insane-team"
+  owner: "gcp-team"
 ---
 apiVersion: "backstage.io/v1alpha1"
 kind: "Component"
@@ -52,7 +52,7 @@ metadata:
 spec:
   type: "service"
   lifecycle: "production"
-  owner: "insane-team"
+  owner: "gcp-team"
   system: "initRosSystemMed"
 ---
 apiVersion: "backstage.io/v1alpha1"
@@ -64,16 +64,17 @@ metadata:
 spec:
   type: "service"
   lifecycle: "production"
-  owner: "insane-team"
+  owner: "gcp-team"
   system: "initRosSystemUten"
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: insane-team
-  description: The Insane GCP-team
+  name: gcp-team
+  namespace: github
 spec:
   type: team
   profile:
-    displayName: The Insane GCP-team
-  members: [hans.sande_bekk.no]
+    displayName: GCP Team
+  children: [ ]
+  members: [ hans.sande_bekk.no ]
