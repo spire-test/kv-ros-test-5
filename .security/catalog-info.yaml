@@ -71,7 +71,6 @@ apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
   name: gcp-team
-  namespace: github
 spec:
   type: team
   profile:
