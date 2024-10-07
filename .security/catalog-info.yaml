@@ -35,9 +35,8 @@ spec:
 apiVersion: "backstage.io/v1alpha1"
 kind: "Component"
 metadata:
-  name: "Component uten system"
-  tags:
-  - "internal"
+  name: "componentUtenSystem"
+  title: "Component uten system"
 spec:
   type: "service"
   lifecycle: "production"
@@ -46,9 +45,8 @@ spec:
 apiVersion: "backstage.io/v1alpha1"
 kind: "Component"
 metadata:
-  name: "Component med system med prosjekt ID"
-  tags:
-  - "internal"
+  name: "componentMedSystemMedGcp"
+  title: "Component med system med prosjekt ID"
 spec:
   type: "service"
   lifecycle: "production"
@@ -58,9 +56,8 @@ spec:
 apiVersion: "backstage.io/v1alpha1"
 kind: "Component"
 metadata:
-  name: "Component med system uten prosjekt ID"
-  tags:
-  - "internal"
+  name: "componentMedSystemUtenGcp"
+  title: "Component med system uten prosjekt ID"
 spec:
   type: "service"
   lifecycle: "production"
