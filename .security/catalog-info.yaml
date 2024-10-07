@@ -17,6 +17,16 @@ spec:
 apiVersion: "backstage.io/v1alpha1"
 kind: "System"
 metadata:
+  name: "initRosSystem"
+  title: "Ekstra system med GCP-Project-Id"
+  labels:
+    gcp-project-id: "ekstra-prod-1234"
+spec:
+  owner: "gcp-team"
+---
+apiVersion: "backstage.io/v1alpha1"
+kind: "System"
+metadata:
   name: "initRosSystemMed"
   title: "System med GCP-Project-Id"
   labels:
