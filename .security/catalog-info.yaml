@@ -13,3 +13,63 @@ spec:
   lifecycle: experimental
   owner: github/kv-platform
   system: kv-ros
+---
+apiVersion: "backstage.io/v1alpha1"
+kind: "System"
+metadata:
+  name: "initRosSystemMed"
+  title: "System med GCP-Project-Id"
+  labels:
+    gcp-project-id: "prosjekt-prod-1234"
+spec:
+  owner: "rosene"
+---
+apiVersion: "backstage.io/v1alpha1"
+kind: "System"
+metadata:
+  name: "initRosSystemUten"
+  title: "System uten GCP-Project-Id"
+spec:
+  owner: "rosene"
+---
+apiVersion: "backstage.io/v1alpha1"
+kind: "Component"
+metadata:
+  name: "Component uten system"
+  tags:
+  - "internal"
+spec:
+  type: "service"
+  lifecycle: "production"
+  owner: "rosene"
+---
+apiVersion: "backstage.io/v1alpha1"
+kind: "Component"
+metadata:
+  name: "Component med system med prosjekt ID"
+  tags:
+  - "internal"
+spec:
+  type: "service"
+  lifecycle: "production"
+  owner: "rosene"
+  system: "initRosSystemMed"
+---
+apiVersion: "backstage.io/v1alpha1"
+kind: "Component"
+metadata:
+  name: "Component med system uten prosjekt ID"
+  tags:
+  - "internal"
+spec:
+  type: "service"
+  lifecycle: "production"
+  owner: "rosene"
+  system: "initRosSystemUten"
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  namespace: default
+  name: rosene
+  description: Team ROS
