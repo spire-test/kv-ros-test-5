@@ -1,56 +1,85 @@
-schemaVersion: ENC[AES256_GCM,data:hYPW,iv:UF4te6ZyA0gGf3b+zH5kPwLv5FfyOR/6RpuUY3im81E=,tag:Fj58aDExdHYkjpBco3rFuw==,type:str]
-title: ENC[AES256_GCM,data:k3Vu1Q==,iv:vE7d2lDEGxMT7y7fSYxiaxIk/eTEiKel8iEiuOOKSJw=,tag:1o11skoP8FMCQZCdYFFIiA==,type:str]
-scope: ENC[AES256_GCM,data:AyaKlQ==,iv:0fZlWWl7OmS5+OxdV+XrBkqu+13Efl4osFynFfnoyv0=,tag:jA65e7EoTbghpZ75LShoVw==,type:str]
+schemaVersion: ENC[AES256_GCM,data:TSoI,iv:9nXlDVDz0XFqFenkw3F/+RfihKq8BZWHSJc9lQMbyyw=,tag:5us8UMM+OIH2+Iykv5shdA==,type:str]
+title: ENC[AES256_GCM,data:e3fVtg==,iv:lrZm10asSE1kmetVa7PGgtGleBgwB0Y8bqgiZ3e/FqM=,tag:rTIn8MpYs4c0BlPTxYKHnw==,type:str]
+scope: ENC[AES256_GCM,data:2T8r/g==,iv:bgTb596QIRuZCVDghPoCLcZ0SBDzs+w9V2xMgwFpvjw=,tag:0Qu6GrTq3VtWSBcPIZeB4Q==,type:str]
 valuations: []
 scenarios:
-    - title: ENC[AES256_GCM,data:OQ==,iv:tyfmMmm7D3OCDqrmMFk+ciG6kJWRZ35tB0yMDGnEBaw=,tag:pbe1z0pWVUJdj59RsSdkZg==,type:str]
+    - title: ENC[AES256_GCM,data:ew==,iv:OKIifNt7HZDfeL+MlI8Fs8ZSVbFDZnxtWyTTL8pVAhA=,tag:Wf9wSGGqlMMMLNQN7z/xig==,type:str]
       scenario:
-        ID: ENC[AES256_GCM,data:fDUwuYY=,iv:LhZcodK6MV8oLZ6LSmiJiOeRk/i8G0EkCoIuakdWamE=,tag:AJ2EsMQvIURRLhvVWrpMMA==,type:str]
+        ID: ENC[AES256_GCM,data:vqqTmTk=,iv:BpsjeDf3ZUECeokxMvcxf1tG+Lh7dAXX5TfOOkDUcT0=,tag:ltnboeX1Q+8HlSrXQVa6Hw==,type:str]
         description: ""
         threatActors: []
         vulnerabilities: []
         risk:
             summary: ""
-            probability: ENC[AES256_GCM,data:cEW++A==,iv:daFxnj+JHV/A+fh+Bp0aIPuTgKTyV25N26f4+JqbIuo=,tag:1MJgpgDv8H8F1VxEp3FEkg==,type:float]
-            consequence: ENC[AES256_GCM,data:vwnfFw==,iv:sac/yIsKKiaizrvpD+KgZb2VYqE5ckBSJy+UOasVIYA=,tag:U2lZoaBFSR3UIcTChYo/AA==,type:float]
+            probability: ENC[AES256_GCM,data:y2Trug==,iv:WTgvSaG05OJV3jmgqipbCmAHMzveqIRQHUjADp7aoxY=,tag:kw1LHdYqRhqhnXewoiulWQ==,type:float]
+            consequence: ENC[AES256_GCM,data:JnNCGg==,iv:95GJTTc/T4Z/Vph7eIQAQE9GoGU9h4Y1l8cxLXIQwQM=,tag:k2EMDpmoYJ6o9ZbqSG20tA==,type:float]
         actions:
             - title: ""
               action:
-                ID: ENC[AES256_GCM,data:tlgFGOI=,iv:++wO537EFg2kp6ulJVve+QMplnSFRz/MeM/67gLsc64=,tag:VlSS2iEbGUXxGI5osN6PJw==,type:str]
-                description: ENC[AES256_GCM,data:Ug==,iv:vXOJYPqShnBv7LsIlw8q6KPPUZk0GM4SRbjNVsMoymE=,tag:rjOH+uThyykuQZNF5pAMuA==,type:str]
-                status: ENC[AES256_GCM,data:im5cG1YXnd1xA08=,iv:6eFLfK9rXTXKYeG07T4zy4TwvjRIvJSEqC7R5je2bLE=,tag:jrg140uHP0T3ww2jSoU+Rw==,type:str]
+                ID: ENC[AES256_GCM,data:44JRJb4=,iv:n2mwxRJHI9X0xqjNnlD/Mo//sE0h2yYex4zzyC8NrnY=,tag:PmplUKQGhj5LtpMu1fT9LQ==,type:str]
+                description: ENC[AES256_GCM,data:Dw==,iv:VHvmn2+F15t+6e2ihugRadPWkYdRb4x7EaXPx8e4SpM=,tag:FOGxiJGU+/oxkZNQs7UfiA==,type:str]
+                status: ENC[AES256_GCM,data:WqUzBjDQJyQzHUM=,iv:WRHJ3lpHrYf1ZxD6u0fFdFXCtWUzc/WAb6z/LGISoyA=,tag:CdXSpJ1c/m+DJaR8cL8xmw==,type:str]
                 url: ""
         remainingRisk:
             summary: ""
-            probability: ENC[AES256_GCM,data:7pGcBQ==,iv:pfRl33YIl/6tMxICwzIiRmdAim4lwLjLeq+2HjWgnk0=,tag:XC6KQot8OI0beXqbr/umyg==,type:float]
-            consequence: ENC[AES256_GCM,data:81eOfw==,iv:rH6Lx7TMlCkR+tCCwii/UvrgQUFfJQ2kzik6K/RYDtI=,tag:imLNjO+RJGXtFM4R4Dgn/g==,type:float]
+            probability: ENC[AES256_GCM,data:r8HQaw==,iv:9liLln9+dkRY3lng52WxpbetHF0hvlqVCPZiUSSS758=,tag:QH8dPnXYKnpOGX2l8UXsmA==,type:float]
+            consequence: ENC[AES256_GCM,data:RsUiww==,iv:7ULi4DQWdYMl43h1UM0iYgvcZu6xXF4hmkMKKk0FQUo=,tag:vUrOGl7JkUZYCOl99LgRCA==,type:float]
 sops:
     shamir_threshold: 2
     key_groups:
+        - gcp_kms:
+            - resource_id: projects/spire-ros-5lmr/locations/global/keyRings/ROS-global/cryptoKeys/ROS-as-code
+              created_at: "2025-03-12T13:45:42Z"
+              enc: CiQA/OTTg0GTBBlxKWEHdvBzGNpcnG/oGZzvNbm9hUNqB8D2dAsSSgALyAn0ZyGepc8cH++XsUJhKvYUZCqWKXe+j+Q7xEXDqEYnlgGkQdAK7WyurlK9CZ1v91qeFyf8yihr3KmzYNqcxchm5nTcmLe/
+          hc_vault: []
+          age:
+            - recipient: age145s860ux96jvx6d7nwvzar588qjmgv5p47sp6nmmt2jnmhqh4scqcuk0mg
+              enc: |
+                -----BEGIN AGE ENCRYPTED FILE-----
+                YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBxUUlZa0x4RVJwRlBuYktH
+                NEZweFFOK1V2Qk9tV2FzQnN5ZmhGQzRiNFg0CkVmV3NTbWJsZnN1RnFlZzJacVZH
+                U3M3NERYK1prL0VYNllxQkx2NzNDRVUKLS0tICtLajNUbkh2RVF2dWRrMHZtVjBR
+                UWJNbXBZSXhrcWFQWFJiUk5lRGRFb0EKxAwM7GUR7c+BVbaOS+eCujTWfm5d5pJq
+                5uaMiSkODe/HkxZXBtgSw2HQt20g3PU5MBPcsgLPr3RDqPC6xYGMQfE=
+                -----END AGE ENCRYPTED FILE-----
+        - hc_vault: []
+          age:
+            - recipient: age18e0t6ve0vdxqzzjt7rxf0r6vzc37fhs5cad2qz40r02c3spzgvvq8uxz23
+              enc: |
+                -----BEGIN AGE ENCRYPTED FILE-----
+                YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSA4aFR5MGF6Z1M0NmdWcWJI
+                Z1VyVS9BWDlBbmxHbVdqK1lET3VqY2dlTnpnClJTVkQzbWs0UlhWaDdkaEp2TWt5
+                Zzlpd1V4RSt2MGFISGN2cHN3V0EyTjAKLS0tIHJ5UTlSM25JYlQ3OXlzNkV5UkM5
+                Q0h4STlROUhqeTJ0UCtnL0p1bGNqUDAKxdgnf28Ng+1RLipmRQVhRN9t/FxrPipb
+                RxNzcxBwhYvOWr6ij3j2u3JrgQzVYMkv/Wxyl5HIPHDbd3r8YAIEsyw=
+                -----END AGE ENCRYPTED FILE-----
+            - recipient: age1kjpgclkjev08aa8l2uy277gn0cngrkrkazt240405ezqywkm5axqt3d3tq
+              enc: |
+                -----BEGIN AGE ENCRYPTED FILE-----
+                YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBBSk5Kc1RjOGNHMk5xOG1u
+                MmRpWHc3ZmkwdHVQellwVE9LekhwSElVZ0JnCkluaXl4b3JuVVVLb3Bpbnd4RmRG
+                Y1N6QUw4Ykx0NWRrYmxzcE5LSU9uUlEKLS0tIEhpa0tHTmF3MXRhODdaeHRTMWtD
+                YTA1czl0bittNEo5cUNmQmNMT2FYUzAK8hEXWekQ2Kr+8WQzHnauCV6c5UQpnKIF
+                LWpLk+KMRzxkWfI0+7umKX9AG5XrvTNEACz7EOHblpZrMLE63Kpx4i0=
+                -----END AGE ENCRYPTED FILE-----
         - hc_vault: []
           age:
             - recipient: age1hn2ax8m9798srve8f207llr50tyelzyp63k96ufx0ud487q9xveqca6k0r
               enc: |
                 -----BEGIN AGE ENCRYPTED FILE-----
-                YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSB4SmQxRTdDUDY2OEhhTGRi
-                U3dqdE16MUFkYWI2djZZTlBYOGNTak54aTFzCnhPeTNVUFloMzNKRjhiVnhqbDYx
-                SmEwcXFSOTg4VjhlbUdwUE5SaDROZ1UKLS0tIEM5WjRoQk9Sa1g0UEhFek5DTU4y
-                YVZkNUJKTktpRVJ0S29rSXU0eHRrME0KwX7rGGNDac+HNWn0kCEp69agXWI0itf7
-                Vpdzt8gM7M1f304wH6RWNXNmZjcpFLVchRrHur3AnJhGrKKx4Ya1v+w=
+                YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBEUkJ6eEZZNVNLSWlvME1r
+                YnVCZDdVdDZmNXdIL0Niek5Edmp1MVpvblZjCnBiMlUzd2wxVHo3RzB2SU9ycHpS
+                L0hLY2toVXNVem05OWNPWXMrODV3RlUKLS0tIG9PKy9Gc2hEZGNXY3lmK0d0eDRU
+                WEpaVm4yTlREcnRISVBNN011WFJVSWMKAhgGC8w2obmo042KWQgrFRmkRp2mz63K
+                93pqH1pG6FSPsPgU0ytIFHFqdX1fBPufOHGeu2tequjlCH0wPbxkk2A=
                 -----END AGE ENCRYPTED FILE-----
-        - gcp_kms:
-            - resource_id: projects/spire-ros-5lmr/locations/global/keyRings/ROS-global/cryptoKeys/ROS-as-code
-              created_at: "2024-09-06T09:53:12Z"
-              enc: CiQA/OTTg7JBtiSoa+q0/gJIqOcJmFRHbPwHVhm6fHuEhj233o0SSgDmnRJNzWeJyXGMK3gLL4xktrCnxRU+LlvIrH6SxQsy+0XTe3gfTu7ttRyIzZWD2Nh06Cd3f/T7nCIfroueXbgVlmU2JvDPgyiQ
-          hc_vault: []
-          age: []
     kms: []
     gcp_kms: []
     azure_kv: []
     hc_vault: []
     age: []
-    lastmodified: "2024-09-06T09:53:12Z"
-    mac: ENC[AES256_GCM,data:WVHsc4r2HTO24TsefXwesf5igMHhHG0oTOICG58dpZ/8M1WwaY6TkrcQdrC/CNxnEk6t6H69FaCouur5GndRnp/8UHWFI2WvS9/JWshr1UQzTF6GZQMmJGbGQOX0+lm+XnwDnCQ2rnxmqgMMtkd7aVMzizxhmg9MpXabeHozgww=,iv:2CzVqjJf4PdBAg2sHTKgtQU1aOtUGmEL2GvfOwT/FA8=,tag:aOuRF9/2Dg/ZTOGMykUpHQ==,type:str]
+    lastmodified: "2025-03-12T13:45:42Z"
+    mac: ENC[AES256_GCM,data:uFEJW+12b7JeZqhmPI19yLxN0alGO9Y4nf06gg2StJroBbxgTvnDNZI7lWuBhWb8xCsarWi0ZG5VGrMcKYRdSP3gyEIRyZ5bj3mMPZBlQueqhk1eBmThxRLX4OvvaqE+J/5mG5j9eBNhJlanD0YRSVY1CwkSvdJVk9BCq/7X8mY=,iv:6bRHX6jzHJ4e2d1P0vIXgkg3cfzX2ErYOdew02VeMkk=,tag:PGnR8qtsp4N6vFkClts/gA==,type:str]
     pgp: []
     unencrypted_suffix: _unencrypted
     version: 3.9.0
