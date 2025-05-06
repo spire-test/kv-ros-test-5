@@ -1,65 +1,90 @@
-schemaVersion: ENC[AES256_GCM,data:MIXL,iv:OT3I9RCBLsM3Hk2OTXVE/snDxvIGIL8nrKF2pOQ8YQU=,tag:9n49XH/P36TQimY/buNk1A==,type:str]
-title: ENC[AES256_GCM,data:WObDyg==,iv:cvZendpkrVMLNJ0bOdseGNlDxLW9tJjEDoo4cI71ch0=,tag:VyaA9eRiFaBx4HMDCinHSg==,type:str]
-scope: ENC[AES256_GCM,data:pfCvrQ==,iv:hb7rukAuwfTLuXXBfg8crQM71gF7gGIqFK6sSYr5t3g=,tag:s8zKO+octlebp3nqPcPPMQ==,type:str]
+schemaVersion: ENC[AES256_GCM,data:Ys9U,iv:esf9XEGPS+8x9vJuFJmQD9cFoDfDoCu95c7BqnuOjaQ=,tag:HWBMWaS1uEZtJdRvdzqdMA==,type:str]
+title: ENC[AES256_GCM,data:wHc7Gw==,iv:qLEK4ziZoeNrvbCxIUIfWFddfLHYdF/nOaViE4q1x5E=,tag:lo80SNRbGove9+BPX1W0Hg==,type:str]
+scope: ENC[AES256_GCM,data:YpumEw==,iv:I/suOEESOj5yTGB5Yy/pmL/qVpzwPhNILlRvX6/8fyA=,tag:iPzVcuWYXJ5Vt960gBqsDw==,type:str]
 valuations: []
 scenarios:
-    - title: ENC[AES256_GCM,data:JBxoRzCjb/2xGEH/OLul,iv:mr12IPZRoG4FbeuMj6Wqg+8uYKj5RhQ6oE1lZXn+VJU=,tag:uLBhA27MCWsy+G2nZOh/qw==,type:str]
+    - title: ENC[AES256_GCM,data:/bzl+Sp9ggjpSs5Er3Od,iv:Fz9DaUhuMJfxylNn9oxIhCYmD/3KqSFecDOrQIe08X4=,tag:fZTKE856675GhEwHFLtr0A==,type:str]
       scenario:
-        ID: ENC[AES256_GCM,data:1OTVJ/Y=,iv:G5milIY9kFYBdw5ZPPCja/xXV4tp3AXbCf3IJksyeFQ=,tag:/nKgdLnZeV6Mz5oR5fBRWQ==,type:str]
+        ID: ENC[AES256_GCM,data:sqtRAXY=,iv:CcpTnQrT0aNTCT9yo3HoNSW0IOoFj6Nq6fTjy6cynZg=,tag:PILLySiczqhAFoj6KBBJhA==,type:str]
         description: ""
         threatActors:
-            - ENC[AES256_GCM,data:0k0qS3SVja7nmapsvA==,iv:xO3Lop2wdAkyqxHX3wQnQQ6Vto6WNRL71WZAwHm3+ds=,tag:IaJlX+tuVxWmKzC7m6RmDA==,type:str]
+            - ENC[AES256_GCM,data:yxLvohjDJ/nhISrG2g==,iv:UfBoOx56Nzj3TvmQgBmiprYaEuXyXv4Xs7Fy74O0HyU=,tag:tuUd4YNR0OcMP+RGda0TMg==,type:str]
         vulnerabilities:
-            - ENC[AES256_GCM,data:/n6IUHhdV/gp7r83WA==,iv:x6T7H40J6ld1ga9P7jIbRTEyeZb8ksL628I6ELx7ozI=,tag:wX20ESMosMyoZ0upFizhiA==,type:str]
-            - ENC[AES256_GCM,data:TiBnguoBGp2wHZFRexTmaA==,iv:4j+2h/2IOPPpQfhGH8PKapj/ovwfCmD7ZepdZsb2P+w=,tag:+IBXD8sl8s2EMV6jxno/Ug==,type:str]
+            - ENC[AES256_GCM,data:Vvskg7hyqf5EwH3oTw==,iv:KGh2ZDIrPGvX0n3BikZ49vKJzSfuPE4JtzskT8EfW6U=,tag:n4srfds+2Ko+X3WpJUoWWw==,type:str]
+            - ENC[AES256_GCM,data:FB3jUDuRFeSrbvbtNbFbDw==,iv:DvoVxT3If3rX8OCCfh83L1A1mTpLIEkPXCLu1C4n7/I=,tag:syeivuCWFp0CXRsneIhWog==,type:str]
         risk:
             summary: ""
-            probability: ENC[AES256_GCM,data:v6Qm,iv:RtUME+7TWzgWt4YDWYJxRknb2FkdsDPW5D5n279uNdA=,tag:xxat3TTiSFF32oRMPyowlg==,type:float]
-            consequence: ENC[AES256_GCM,data:sc4CHXI=,iv:fyKJ4rzCLjCTOlNHJH36tSxDitQPUL6JV3VarYbsw+U=,tag:v6nclJjmiirViHtuwlnnOw==,type:float]
+            probability: ENC[AES256_GCM,data:0YDC,iv:XJU5TMGM79sB6ZNJVnbUUbtGFVXRsnRsYdBGsQCwbTc=,tag:lNFOx/wvU/iFapLD7ORSRg==,type:float]
+            consequence: ENC[AES256_GCM,data:LWrfQVc=,iv:hV6PWG2E/MF5swDZpygDRPBGLadKOc+p6Mx9KUzEjuY=,tag:uioHcK3WMngCIXGdsbMVaw==,type:float]
         actions: []
         remainingRisk:
             summary: ""
-            probability: ENC[AES256_GCM,data:+Fa8cw==,iv:7MNQ4lTBIw2aMyFotZCp/YIF5ItksVIVhslhMJtl6EU=,tag:DbpGQXqktcd8ye+swDnVSQ==,type:float]
-            consequence: ENC[AES256_GCM,data:A0Rk4A==,iv:bwfe7o1Ket/G5FQT4mn3oMYqwdf6KIHl0A/uOW9T384=,tag:LNEpor4VWyzIOXu2Eyiuiw==,type:float]
+            probability: ENC[AES256_GCM,data:9JQxVQ==,iv:+4+Z7jRFvwoV1yv+EWcZSfvKMsZ3ace25KfKQYrN7xk=,tag:u+GV/mOUTt5Bnfqj0UepYw==,type:float]
+            consequence: ENC[AES256_GCM,data:B+GxQA==,iv:ncIa+H6XjFCUEM+BQEWNyRbBupW54xRr0UF3zCtUB9M=,tag:eYggi1Rn5fl/oYmerdiJzg==,type:float]
+    - title: ENC[AES256_GCM,data:K+P9FMt+rEP7Clx3bcul,iv:kX83KkKreBb9yyCuhqslpg60E0hEwbfWHxT2azAOtDQ=,tag:TU0wzLtZSgmFeAGzJ+y0Nw==,type:str]
+      scenario:
+        ID: ENC[AES256_GCM,data:VCvUqg8=,iv:7hA5m9jFj0adKSBzmAeL9HhbaGZtw66V2xaEE5asBR8=,tag:4iQsx0vqrs592IAkAbk7jg==,type:str]
+        description: ""
+        threatActors:
+            - ENC[AES256_GCM,data:fdvZgGoqCg==,iv:KPTysHYYM1B2m6WP0uc7n3tz5nuXB5wjILrCo3RawT8=,tag:yy2cfVrhUM+NniJaoIAEuw==,type:str]
+            - ENC[AES256_GCM,data:bYMDc2MTpKpZ8HfvTWMb,iv:590p9kVGxsJv6oe3IUGnqpAx+bt3n69nVJVMbC3yIjw=,tag:jyZ6a4teGFlGMvc6tEKX9A==,type:str]
+        vulnerabilities:
+            - ENC[AES256_GCM,data:x3/sfZhvQJaGqG7iDmJX,iv:+yPYM1UOfdw6GSziN32gGZiTyb2XaO91uEQceAzPJnU=,tag:p3C9Bks2QPOJwgPQODkKQw==,type:str]
+            - ENC[AES256_GCM,data:iIjoK24BRH8ErtFAmys3EQ==,iv:IqqS95AabPGSxHr3+v6qinrq9E5yf3J9vKhN8elB6Dw=,tag:yoiP9saacGmd9qdKYlye3g==,type:str]
+        risk:
+            summary: ""
+            probability: ENC[AES256_GCM,data:pRVT,iv:v7W8P+2gJEqg3JAUStA6xmSq5B5o72L/Lrz3YDAs0vw=,tag:cfZRdRAufbjgxWSrZXtvfw==,type:float]
+            consequence: ENC[AES256_GCM,data:3E5MEH174XM1yA==,iv:dhP34mfAhN+mDs9DtmzjDgwZfuDvCL/GbOs8pycZKbk=,tag:Btcpg2dHmo7bDXbGAivsTQ==,type:float]
+        actions:
+            - title: ENC[AES256_GCM,data:E42QD7t2yZ5ft9tH1pPIUdj4,iv:12xdjrcLjkEluu8eT9Tv6haHuCjNEO7MDKYK/SxNNrU=,tag:nfY159atx01A8b1OdDMj/Q==,type:str]
+              action:
+                ID: ENC[AES256_GCM,data:Xbnp7H8=,iv:17w6XHPmKBoqnc7crEKrslWxMOnvicn9gnXqlNWGA9M=,tag:NJJ0qQH7J5q4wcWMMQKnqQ==,type:str]
+                description: ""
+                status: ENC[AES256_GCM,data:KbsiKci1l86B,iv:R3db+8P3DypHaFho9ewnoAy0L690ikceeMWUsbUptvQ=,tag:aYabZ+RagNdyxvmAPGDmcw==,type:str]
+                url: ""
+        remainingRisk:
+            summary: ""
+            probability: ENC[AES256_GCM,data:O90Tiw==,iv:mo5GtNHpeepFM1gF+tHc7Jln5Ne7BSBbmustvDPRozk=,tag:8phpQ945zI7JmOsqpSeILA==,type:float]
+            consequence: ENC[AES256_GCM,data:Rv76Tg==,iv:jmrRPM4a9JbqkdgYmJ53rTDEQL3+8NxgEE+2IiBQFYw=,tag:Vl3SZVDACaHriy08bk0+5g==,type:float]
 sops:
     shamir_threshold: 2
     key_groups:
         - gcp_kms:
             - resource_id: projects/spire-ros-5lmr/locations/europe-north1/keyRings/spire-risc-key-ring/cryptoKeys/spire-risc-crypto-key
-              created_at: "2025-05-06T10:20:26Z"
-              enc: CiQAcBXeRjxdTFr5TgwOje8O5E131EmZMHMSmPH0CQ8iO58ZqIESSgBTNRXr27Mqy2AAdvP2N7u6wTGmq4aWlmxeqHadnFktiVs5BO+f4Eea2nZ/5YtPNJdO0ty2nLYra8VorjpHeYEqS4Jk4C4P6m4G
+              created_at: "2025-05-06T10:21:01Z"
+              enc: CiQAcBXeRr/EewHKgrfBJy/uehTyacMkgN9ZUAbuWF1AcS1NPUESSgBTNRXrPjyeCQIWyH4+tOjDu18B0AUy6Uz/LUZoD1T1g/QJf7ANtmHdCPRgAI9z9Ur2qfRDsgKYpymMIHO8BHm2cZ0i8zMEPQAV
           hc_vault: []
           age:
             - recipient: age145s860ux96jvx6d7nwvzar588qjmgv5p47sp6nmmt2jnmhqh4scqcuk0mg
               enc: |
                 -----BEGIN AGE ENCRYPTED FILE-----
-                YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBMWUtDUFZFNVVVaEt5UjNa
-                TllRclpIdTlaZlFiSzZVeCtGVnNKWXBzUDFBCnNYSklSb215UFFVYm9yMDY1V2Vw
-                MVU1NGMzbi83WEVsU01sZzZraERDZ1EKLS0tIDNWaDVBMThlUGk1clBkU0NvWHdq
-                bmtEZnFvMGlONGdKZlJRVkNMTXlVZnMKUmPD0fOUdg6N1z5OZ3vB0Xs1PnxEedQL
-                aSo0CRe7tmfOMhIAflpJ4VnXa0MUBbYSo9Qcd/QyWeJXKU5sFYcniBI=
+                YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBrZEtCUkd3T2toTzVobzhH
+                SGFMOUZ3WndpdlBETFNLcWJIWGRmb0d0L2p3Cnp5R2dqdWh1bU13THdhVWw0TnV6
+                MmVXMmxYZlhCTzFkOWxsLysrQjVBREUKLS0tIGhFelk4S2RvQ0RQd2oxN2dWb2Rt
+                aDF2d1I2dFpKTzFYd3VmRERPTjBISUUKT87kPaNvgaqfk43esl1jmnalQgHP1XzW
+                cMFnY9WLb866A1PRuYiH9Cd+BxUyqWUTW01O0LGhk4FXyXNPLfvheAM=
                 -----END AGE ENCRYPTED FILE-----
         - hc_vault: []
           age:
             - recipient: age1hn2ax8m9798srve8f207llr50tyelzyp63k96ufx0ud487q9xveqca6k0r
               enc: |
                 -----BEGIN AGE ENCRYPTED FILE-----
-                YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBWbGlFbWlpZXd6RDBPQ1d2
-                Zmc2d0dQVTlJOEpXWFZRYXRWclpGQUFYWTBVClI5ZmJUaVhMZlJWblRFQ2dOR2F5
-                TWN0OXVsMEdjL0xLM1J4QWFZc2Y3NjAKLS0tIC9VUUZFN3J0ekhmNCtBcFBoQlE0
-                ZHlnTldXKy91VzNwS0NCK0RvcjU1RU0KL6hixerk/eKlmJf+4vv3LeVXBmCXR+Tu
-                CFE81JtjkKAvkd/X9rp3+XNww5wAa9snrmHPkOvdd9YEd6VLjLC5jSk=
+                YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSB0Vjh1YzRvZnhCSUVnODIv
+                bVdESWFrNDZFcFNOYTU5ZVlEREVraitxbXhNCnhMREQvcGJmbVB5RWErR29LdzR5
+                dDNCOGpHcHN6MTlCOGphclNRMzRvd2sKLS0tIFphWjAzdVM5SnVhdmxoaXdRZnNj
+                Qnlxak03bjU4ZUZVeUNDNFlUaTVrNGMKEZU2Ls07bg4w0WS/pOLObi3krTqRf/CW
+                7PzM2pqhCrlxbd2vqzsmD8UosDUM/yDJaL/vF9e1GKBsx4cffxrVr98=
                 -----END AGE ENCRYPTED FILE-----
             - recipient: age1kjpgclkjev08aa8l2uy277gn0cngrkrkazt240405ezqywkm5axqt3d3tq
               enc: |
                 -----BEGIN AGE ENCRYPTED FILE-----
-                YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBQVU9XWmt4NFdvUUZVcUpL
-                Q0poYkVjOTFFN0c3OTFhM0lCNWcyTHRsM0dZCloweUJMc3d1MnVEQ2QrNmhCTUZa
-                Yzl2TVVaODVvbllDSGI5M0JZL2FlRlUKLS0tIDB2QmlWOHFwZEhYS0QvRWRiM21K
-                NDVRTm5UeXFCMENsQ0lBTFRvWDZ5T2cKkbQ/94kv0OWLQwn0p9hc7LTLjt0HgCJk
-                4iMhECcginFCnLEoFcNXd43lGmHanKdJ+AYXJwubKl/bnyPxoikxcDA=
+                YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSB5eUsrZm9UWDdDNXBCMVA4
+                OUhZVUVxSFJYM0w3L3Z2akw3aEhIYXV4aTFvCjhma0x5RVFYcXBwUWs0ZG5icVdx
+                MUtRaEFIV3pzaEdVZVE5M2VBRGlrdHcKLS0tIEJrOUxyc2thWkJNNWptakxvR3lB
+                eXo5T3dQWFlHeHRzMDBqYUZib0FIUXMKoxuFwcT+uaeKtfEx8Ew1fXpKMMJIHD24
+                lSUnKqt5hBsyDUOfZr/4lzv3iPSr2UEsB+Rv0Ha8xp5BypZ+f9RjsNs=
                 -----END AGE ENCRYPTED FILE-----
-    lastmodified: "2025-05-06T10:20:26Z"
-    mac: ENC[AES256_GCM,data:lyqMLeILTAGG15a6plX3rnghHor6nN6ZqpVjn3bdbliDd9IqorkuEI0G9QKi1ALnZl/B0WS0sf2oou85k7xhZiOk9HxMP9myr6CsuAn8NqqkD5+ZToMDpvHPPUx7LCkinIk2I2LxmoE9lMcSHfKey+jk+g9JQxAmM9N/bTIKXWQ=,iv:GQw3QGtke+SjomgxEbtCLRUp2CQeiz33ouWMpKdRED4=,tag:oVXAd0yV37T5SCZmFLmp0w==,type:str]
+    lastmodified: "2025-05-06T10:21:01Z"
+    mac: ENC[AES256_GCM,data:6sf/JY8VQwuyiIwW18L+wwKyMo6V/BaqOxG0wkKLJY+ew/jeODsbu/jfNdee0CUxT+RC6yZJgTg5FgvgezLIr4MNKlD+3f7OxTGkiNQTUNITSnT2VggB6IM2X1GSfLA9qz4wOligp3aSj0Ny+choEEl+D92Trj+G7eCoR2UuBJA=,iv:i6wffXOtjmLzDPJpp52lB3jht+dqf7IB5a2h3EEBpmc=,tag:XsWLqA7pAbq9TAnQzUOICQ==,type:str]
     unencrypted_suffix: _unencrypted
     version: 3.10.2
