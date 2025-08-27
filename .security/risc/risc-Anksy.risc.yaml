@@ -1,47 +1,64 @@
-schemaVersion: ENC[AES256_GCM,data:8RWs,iv:auuQITfBjdpZa3P9RjZW++X30lXkGnEV567RF/Er0bY=,tag:MjDf2BngSQESSyykeLu8YQ==,type:str]
-title: ENC[AES256_GCM,data:scylUJ4FtY0BMg==,iv:5dgul20hR/UEKomhxQINj1afX50wWkRxcjEe+9fqEkA=,tag:pACjamEO/z6TI0ZmXz94Vw==,type:str]
+schemaVersion: ENC[AES256_GCM,data:iLyS,iv:nd48QNeFV+WppasGve5oW6E0x5YNypth+fYwoe6RtpY=,tag:nAZkqTj2yWZ7D3BL6mY53Q==,type:str]
+title: ENC[AES256_GCM,data:RDziUq5QHe8N4Q==,iv:kkKwfPheZX1q+XWCU1xs1guqK3BAEGWlagqD64iAcko=,tag:jzezqKZRlZheSziEwydsdw==,type:str]
 scope: ""
 valuations: []
-scenarios: []
+scenarios:
+    - title: ENC[AES256_GCM,data:tB+tjTCzob6TGiE=,iv:HB1KNtX2HGHzfDrxFgAuzgiRz8kyhkibXa1shMrQW3k=,tag:wxc8KoPUT8XvHHvm7m+sgQ==,type:str]
+      scenario:
+        ID: ENC[AES256_GCM,data:d0FPBB8=,iv:zZlY6IKW+9uwwAkEsFsEdu6vpSKhOAgvddqwSgISFoA=,tag:YUlzyQ+4hDQfjX3Ij6hHkA==,type:str]
+        description: ""
+        threatActors:
+            - ENC[AES256_GCM,data:aa31Xwvh0jqO5w==,iv:Z1nAQHwoOeB6T1pfaU+brKAkLZRGp+fzrPHdLXonK7Y=,tag:hXSYxgsZVVUqpx2r82FEpw==,type:str]
+        vulnerabilities:
+            - ENC[AES256_GCM,data:6QRJwFmY9+EpJYNKzNiJ4NSRYg==,iv:eD+7AZhe6fp07dgBWy9bdH5NFH8L48fh80HPVMu47eo=,tag:pC60plA0NOTXYZ9EQ4vPLA==,type:str]
+        risk:
+            summary: ""
+            probability: ENC[AES256_GCM,data:hGgZCxW3,iv:JeXqvt0Fij+pNPIdmrkUYsdxoXM8gvZSbrzoANCx/gc=,tag:cwU6fNgkW/sJuOLLHN3fow==,type:float]
+            consequence: ENC[AES256_GCM,data:bJH50A==,iv:7Uv/gBAZ6b0657JLk+4QUkQ0lmJa0rrX9ZE7axvlYZU=,tag:Ze1+pzwCW5aQXlsBJ3ypcA==,type:float]
+        actions: []
+        remainingRisk:
+            summary: ""
+            probability: ENC[AES256_GCM,data:EfHvkpIX,iv:y0Xs4rX5mJQf0A6q0Yrt1Dr5AOvGcoSpncCheJFOXWk=,tag:GO4HKL437BiK0PBzZdUl6w==,type:float]
+            consequence: ENC[AES256_GCM,data:WU6yGw==,iv:+6X491k6i87ymAidECntA6JWMalF5g641RNyQ5wUXQg=,tag:LSa8g6NvuZGILi61Q/awKA==,type:float]
 sops:
     shamir_threshold: 2
     key_groups:
         - gcp_kms:
             - resource_id: projects/spire-ros-5lmr/locations/europe-north1/keyRings/spire-risc-key-ring/cryptoKeys/spire-risc-crypto-key
-              created_at: "2025-08-27T06:53:47Z"
-              enc: CiQAcBXeRmZwu5lnT3G3RYwoVOm0/69NZOWl//CTE1Nm+oo26MoSSgBTNRXrNpp8lXup2EYMBBNrNVz7YI9Ii8B0jnz7eFRNbXnFfitrYKVTGwRQqmYi1WO4eNXeFFGIo2AAuqYjA1QNIgt2KeS1OtM0
+              created_at: "2025-08-27T06:54:11Z"
+              enc: CiQAcBXeRqcz1bmrSAY90NSCa59bL+YyJ6ynLSXflCDXQ7jr4d8SSgBTNRXrdvM0vvHl4i3nEAlADvJOxKEeWOd7wexWvQMMLiNGTgb/bAlLmnM8nkym5dN8tvveAdTK2YDDq39J4YxkyBCLUqNIknE/
           hc_vault: []
           age:
             - recipient: age145s860ux96jvx6d7nwvzar588qjmgv5p47sp6nmmt2jnmhqh4scqcuk0mg
               enc: |
                 -----BEGIN AGE ENCRYPTED FILE-----
-                YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBGMGVVazlZQll1VFR3cjBl
-                Y2VVNFFucVRPdUQ1R04zNW5Od2xrWm5ObVJRCmFsanV1QW9lTkZCRW1UZXVMdGVD
-                bExTSlBSLzdYRDZtdEVpaUtRSXF1bEkKLS0tIGRwbWFZcGY5R25RWEJBSkFFNVZO
-                aWFLNTA3UkhZc0kwUTE3RlVrZU9IUWMKAxfdJeEFt+X3HmAzBieKsiYloA6aNGTD
-                Jxsk7tlccNCWndB9yhL/l/CpkHEK2i870L86TWJdNaSFSYDb+b5jXNA=
+                YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBNN2JmOEpRNVU1TlFIVnZB
+                cUIvV0Vtb05ON1dXSXBvajVUY1BaNzVLNVRFCnMzTXRTQmNBZC9KZ1VTUGloTzVw
+                RkZXQVRWY29HVnNCNkJONzlKa1FpbkEKLS0tIDNjamI4SU5hdjQ1aWdLVGJyWEVn
+                Z2V2b2RjM0t1a0Q5cFlVa21BRlRGYlEKfBb2qBs9pg/vZulqq9TVc8LhaZ6oWFKO
+                LP0hzWk+Swcdq08J7nvfjDsoVjYYZu2osgMdQ2iyRQ18sDHrPUw0WZg=
                 -----END AGE ENCRYPTED FILE-----
         - hc_vault: []
           age:
             - recipient: age1hn2ax8m9798srve8f207llr50tyelzyp63k96ufx0ud487q9xveqca6k0r
               enc: |
                 -----BEGIN AGE ENCRYPTED FILE-----
-                YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSAwblNyZWJSQXVPakRHOC9h
-                K25UZ2MvTzJxVkhiaUpiNUUydWhzSEJzMXgwCmVicElUeWlKdkhoRlc4MnN3bWRm
-                OExGSSsrS3pqRUN6ak1ocmVma3hUMFEKLS0tIHVLR1pXeU4wczVoOElkdEZNaU83
-                NHI2UTd1VGJoZk5ldmNxanA3cm5hTG8KVrVZ6xuzrcGOqNLXs+zEWBEQHzmSpFm4
-                f5kGWXVRQbPjVztxMpPIseYQvP2H75BWv/VZdhFzITiW76LESB/JHpc=
+                YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBGZDJIVytrM05IQjJZTXhP
+                dUw0Q0dlSzZjbTRyWnBLNjBrSFlLK0s5MURvClJCb3lzVnp3cDJqWWJIaGdmY1Ny
+                YThaQ0d0SzB1N1liM1FxTU9YTW4yQmcKLS0tIDVqc0V3SVhVQ3IzZmlORUhWZGpJ
+                NFhHRVhUQ1VwR2V6cHRZZktWcW9JOE0K20DEHil4mL8Hq2fX7aKqCC/3frDpcXiF
+                UqBEuFnpQcfxTJbxFqjhgS4WtZO2DzLcFWCKbhvaqaneJUL6ljFzyqQ=
                 -----END AGE ENCRYPTED FILE-----
             - recipient: age1kjpgclkjev08aa8l2uy277gn0cngrkrkazt240405ezqywkm5axqt3d3tq
               enc: |
                 -----BEGIN AGE ENCRYPTED FILE-----
-                YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBuZnFVMmpwODk4RmxjRWUx
-                NXZ1RHhGWE54UUc4MHU0em42a2k3alEra3o0CmNMajFKRXo4N1pYUGpYNTVBQWNT
-                WXd3cmVCUzl2Q29wSjVrbWlxdDhzY1EKLS0tIEdjV3pTT3ZSaGZtQklYQm4reUJt
-                TDBKR0NPNyt2Y3owSWZQZC9PZ2o4R0kKpDNPr7KRFvQUzOMWe1dyfjKkYvTXElpA
-                AMuE8JkRPtOPJIJ6+XIEOUgUiTUoLnZQx+WswKfdj/LCWP5Tuvm7ZG8=
+                YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSAxSUlxQmlSMWIrbVA1eklP
+                cVN1dFFHNHN1SjVCVUFoajZtUGpiWXM4OHc0CnZkNnFiSzFaYmt3WHN5T0hzbWhE
+                V1QrdElWREJqRDZsV1MyRk1BRTlFR00KLS0tIDRsVVhuV3JQeTdNR0kxbUpncUZK
+                M29WRllwaklXd1VKWkplcDRURXJUbnMKb7L6YCweSIkbNp7ybGRTIun+jaYJ6FZY
+                Zcm92xB9hHylmgsJJBLse9Ewn5RbtsE137P89iPbGoqiFOMvS9JGPb8=
                 -----END AGE ENCRYPTED FILE-----
-    lastmodified: "2025-08-27T06:53:47Z"
-    mac: ENC[AES256_GCM,data:syQcvmY+y3PRC1SwrL4Hw4qpghzeQcE+QfDd6IzyMG8qaBBlH9tN8vIEKNji5aSSW3YMFS0A0jXFE9YyT/WYJT3odyPgeyVSkyU/MNfBWPoox8Z8K1bvKzqmq0z1AXqOUfRuozBPG77RTloVCg7V/6XcNDF59a9C1EqRQxL6tVE=,iv:iL8NOCW2blTH7hCOLWDsYtxpBp40lDv0h4shh80JNFk=,tag:zUhudaw+3bJffRVDZkNQxg==,type:str]
+    lastmodified: "2025-08-27T06:54:11Z"
+    mac: ENC[AES256_GCM,data:c/LCLicmAUXU8dZNBcaU1OjDCOJTNTkbIL+MbpE+pBb5O87cnP6UiJpJ/b3Dp1cY7/PXM5PrFMgZnfAJMtqTQUfGOMEnaGSlwCnqElw4UsT2byZnaU0stqYc+kB6y5SH/xlR7uDDfCGW+ong2RyycYJDdohkOGUglEii+yZecYU=,iv:p8Re7m0Qcmqgi2uTgSlmwXn/okMO1ksTh591S1Re3aI=,tag:uFyUdd7pgyTmeDqM/8c+Cw==,type:str]
     unencrypted_suffix: _unencrypted
     version: 3.10.2
